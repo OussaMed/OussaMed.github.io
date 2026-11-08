@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oussamed.github.io/sitemap.xml
