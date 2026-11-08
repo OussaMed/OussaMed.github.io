@@ -404,13 +404,6 @@ dialog::backdrop { background: rgba(8,16,28,.82); backdrop-filter: blur(3px); }
 .soft-feature h3 { font-size: clamp(1.6rem, 2.6vw, 2.1rem); }
 .soft-feature .soft-norms { margin-top: 4px; padding-top: 0; }
 .soft-new { display: inline-block; background: var(--gold); color: var(--navy); border-radius: 3px; padding: 2px 8px; margin-right: 10px; letter-spacing: .12em; }
-.soft-doc {
-  margin-top: 22px; align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; color: var(--white); text-decoration: none;
-  font-family: var(--font-display); text-transform: uppercase; letter-spacing: .1em; font-size: .88rem;
-  border-bottom: 2px solid var(--gold); padding-bottom: 3px;
-}
-.soft-doc:hover { color: var(--gold); }
-.soft-doc svg { width: 16px; height: 16px; }
 .soft-feature-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
 .soft-feature-lists h4 { font-family: var(--font-display); font-size: .92rem; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin: 0 0 8px; font-weight: 500; }
 @media (max-width: 960px) {
