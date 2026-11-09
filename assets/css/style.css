@@ -356,7 +356,7 @@ dialog::backdrop { background: rgba(8,16,28,.82); backdrop-filter: blur(3px); }
 .clients { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 48px; }
 .client-chip { display: inline-flex; align-items: baseline; gap: 8px; background: var(--white); border: 1px solid var(--grey-200); border-radius: 999px; padding: 9px 18px; font-size: .96rem; }
 .client-chip b { font-family: var(--font-display); font-weight: 500; color: var(--gold-600); font-size: .9rem; }
-.refs-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.refs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
 .ref-col { background: var(--white); border-top: 4px solid var(--navy); padding: 26px 24px; border-radius: 0 0 var(--radius) var(--radius); }
 .ref-col h3 { font-size: 1.15rem; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
 .ref-col h3 svg { width: 22px; height: 22px; color: var(--gold-600); flex: none; }
